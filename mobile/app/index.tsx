@@ -10,7 +10,8 @@ const Onboarding = () => {
     const router = useRouter();
     return (
         <SafeAreaView
-            className='bg-white'
+            className='bg-white.env
+'
         >
             <ScrollView
                 contentContainerStyle={{
